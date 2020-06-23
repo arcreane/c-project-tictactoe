@@ -25,16 +25,16 @@
             <Menu DockPanel.Dock="Top" Margin="0,0,-71.6,0">
                 <MenuItem Header="_File">
                     <MenuItem Header="_TicTacToe">
-                        <MenuItem Header="_New" Click="Button_Click" IsCheckable="true" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0" />
+                        <MenuItem Header="_New" Click="MenuItem_Click" IsCheckable="true" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0" />
                     </MenuItem>
-                    <MenuItem Header="_Pendu">
+                    <MenuItem Header="_Snake">
                         <MenuItem Header="_New"   IsCheckable="true" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="-1,0,-0.2,0" Width="110"/>
                     </MenuItem>
 
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <WrapPanel Height="216" HorizontalAlignment="Left" Margin="73,49,0,0"                        x:Name="wrapPanel1" VerticalAlignment="Top" Width="211" Grid.Row="1">
+        <WrapPanel Height="216" HorizontalAlignment="Left" Margin="73,49,0,0" x:Name="wrapPanel1" VerticalAlignment="Top" Width="211" Grid.Row="1">
             <Button x:Name="A1" Content="" HorizontalAlignment="Left" Height="63" Margin="0" VerticalAlignment="Top" Width="63" BorderBrush="{x:Null}" FontWeight="Bold" Click="Button_Click"/>
             <Button x:Name="A2" Content="" Height="63"  Margin="0" VerticalAlignment="Top" BorderBrush="{x:Null}" HorizontalAlignment="Left" Width="63" FontWeight="Bold" FontSize="16" Click="Button_Click"/>
             <Button x:Name="A3" Content="" Height="63" Width="63" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Margin="0" Click="Button_Click"/>
