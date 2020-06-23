@@ -18,21 +18,27 @@ namespace tictactoe
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+
+    partial class MainWindow
     {
-        public MainWindow()
+
+        private void TetrisClick(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
+            Main.Content = new Game1();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void TictactoeClick(object sender, RoutedEventArgs e)
         {
-
+            Main.Content = new Game2();
         }
 
-        private void Button_Copy_Click(object sender, RoutedEventArgs e)
+        public void MenuClickG1(object sender, RoutedEventArgs e)
         {
-
+            Main.Content = new Game1();
+        }
+        private void MenuClickG2(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Game1();
         }
     }
 }
