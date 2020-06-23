@@ -34,7 +34,7 @@
                         </MenuItem>
                     </Menu>
                 </DockPanel>
-                <Label Content="Bienvenue dans la page d'accueil ! choisissez un jeu et amusez vous :)" FontSize="16" FontWeight="Bold" Height="66" Margin="0,52,0,0" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                <Label Content="Bienvenue ! Choisissez un jeu et amusez vous :)" FontSize="16" FontWeight="Bold" Height="66" Margin="0,52,0,0" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 <Button Content="TICTACTOE" Height="30" VerticalAlignment="Center" Margin="0,100,180,100" Width="100" HorizontalAlignment="Center" Click="TictactoeClick"/>
                 <Button Content="TETRIS" Width="100" Height="30" VerticalAlignment="Top" Margin="180,-130,0,0" HorizontalAlignment="Center" Click="TetrisClick"/>
 
