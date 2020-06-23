@@ -21,7 +21,7 @@ namespace tictactoe
 
     partial class MainWindow
     {
-        public void TetrisClick(object sender, RoutedEventArgs e)
+        public void SnakeClick(object sender, RoutedEventArgs e)
         {
             Main.Content = new Game2();
         }
