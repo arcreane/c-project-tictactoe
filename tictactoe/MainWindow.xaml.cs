@@ -21,16 +21,16 @@ namespace tictactoe
 
     partial class MainWindow
     {
+        public void TetrisClick(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Game2();
+        }
 
-        private void TetrisClick(object sender, RoutedEventArgs e)
+        public void TictactoeClick(object sender, RoutedEventArgs e)
         {
             Main.Content = new Game1();
         }
 
-        private void TictactoeClick(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new Game2();
-        }
 
         public void MenuClickG1(object sender, RoutedEventArgs e)
         {
